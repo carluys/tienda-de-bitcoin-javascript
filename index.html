@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/bitcoin-icono.png" />
+  <title>Tienda con Productos de Bitcoin</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top shadow p-3 mb-5 bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="" class="logo img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-house"></i> INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#polos"><i class="fa-solid fa-shirt"></i> POLOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gorras"><i class="fa-solid fa-hat-wizard"></i> GORRAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html"><i class="fa-solid fa-envelope"></i> CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <div id="myCarousel" class="carousel slide container slider" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner rounded-5 shadow">
+        <div class="carousel-item active">
+          <img src="img/slider1.png" class="w-70" alt="Polos de Bitcoin">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>POLOS DE BITCOIN.</h1>
+              <p>Adquiera nuestros novedosos polos de Bitcoin con Algodon pima y material hipoalergenico.</p>
+              <p><a class="btn btn-lg btn-warning" href="#polos"><i class="fa fa-shopping-cart"></i> COMPRAR POLOS</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider2.png" class="w-70" alt="Gorras de Bitcoin">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>GORRAS DE BITCOIN</h1>
+              <p>Adquiera nuestras gorras de Bitcoin bordadas y personalizadas de alta calidad.</p>
+              <p><a class="btn btn-lg btn-warning" href="#gorras"><i class="fa fa-shopping-cart"></i> COMPRAR GORRAS</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider3.png" class="w-70" alt="Contacto">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>CONTACTANOS DE INMEDIATO</h1>
+              <p>Pongase en contacto con nuestro equipo de recepción de pedidos y atención al cliente.</p>
+              <p><a class="btn btn-lg btn-warning" href="#contacto"><i class="fa fa-shopping-cart"></i> CONTACTAR
+                  AHORA</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--inicio-->
+    <section class="head-section">
+      <div class="pt-2 pb-5 container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6 px-3">
+            <h1 class="text-dark">TIENDA CON PRODUCTOS</h1>
+            <h1 class="texto-estilo">DE <i class="fa-brands fa-btc"></i>ITCOIN</h1>
+            <p>En nuestra tienda ofrecemos los mejores y novedosos Productos de Bitcoin.</p>
+            <a class="btn btn-warning" href="#polos" role="button"><i class="fa fa-shopping-cart"></i> COMPRAR AHORA</a>
+          </div>
+          <div class="col-md-6">
+            <img src="img/bitcoin-icono.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--polos-->
+    <section id="polos" class="container mt-5">
+      <h1>POLOS DE BITCOIN</h1>
+      <div class="row row-cols-md-3 g-4 mt-3">
+        <div class="col">
+          <div class="card h-100 shadow rounded">
+            <img src="img/polo1.jpg" class="imagen w-75" alt="...">
+            <div class="card-body">
+              <h5>Polo con logo de Bitcoin</h5>
+              <p>Polo Bitcoin Premium para quienes tienen un Lambo, para quienes están forrados de
+                Bitcoin.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center fondo-precio">
+              <div>
+                <h3 class="estilo-precio">S/ 34.99</h3>
+              </div>
+              <div>
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#polo1"><i
+                    class="fa fa-shopping-cart"></i> COMPRAR AHORA</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal polo 1 -->
+        <div class="modal fade" id="polo1" tabindex="-1" aria-labelledby="polo1Label" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="polo1Label">CARRITO DE COMPRAS</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ¿Está seguro que desea realizar su pedido <b>Polo con logo de Bitcoin</b>?
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">NO</button>
+                <a class="btn btn-warning" href="https://commerce.coinbase.com/invoices/8ZJJX3CG" role="button"><i
+                    class="fa fa-shopping-cart"></i> SI QUIERO</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow rounded">
+            <img src="img/polo2.jpg" class="imagen w-75" alt="...">
+            <div class="card-body">
+              <h5>Polo de Metaverso Bitcoin</h5>
+              <p>Polo HODL NASA. Bordado en azul el icono de Bitcoin sobre el pecho, el parche de la
+                NASA en tu brazo.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center fondo-precio">
+              <div>
+                <h3 class="estilo-precio">S/ 44.99</h3>
+              </div>
+              <div>
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#polo2"><i
+                    class="fa fa-shopping-cart"></i> COMPRAR AHORA</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal polo 2 -->
+        <div class="modal fade" id="polo2" tabindex="-1" aria-labelledby="polo2Label" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="polo2Label">CARRITO DE COMPRAS</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ¿Está seguro que desea realizar su pedido <b>Polo de Metaverso Bitcoin</b>?
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">NO</button>
+                <a class="btn btn-warning" href="https://commerce.coinbase.com/invoices/YGZ4XZR4" role="button"><i
+                    class="fa fa-shopping-cart"></i> SI QUIERO</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow rounded">
+            <img src="img/polo3.jpg" class="imagen w-75" alt="...">
+            <div class="card-body">
+              <h5>Polo premium con logo de Bitcoin</h5>
+              <p>Polo blanco con la moneda de Bitcoin bordada en el pecho. Elegante y sofisticada para
+                todas las ocasiones. </p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center fondo-precio">
+              <div>
+                <h3 class="estilo-precio">S/ 29.99</h3>
+              </div>
+              <div>
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#polo3"><i
+                    class="fa fa-shopping-cart"></i> COMPRAR AHORA</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal polo 3 -->
+      <div class="modal fade" id="polo3" tabindex="-1" aria-labelledby="polo3Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="polo3Label">CARRITO DE COMPRAS</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ¿Está seguro que desea realizar su pedido <b>Polo premium con logo de Bitcoin</b>?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">NO</button>
+              <a class="btn btn-warning" href="https://commerce.coinbase.com/invoices/QT8LQWK4" role="button"><i
+                  class="fa fa-shopping-cart"></i> SI QUIERO</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--gorras-->
+    <section id="gorras" class="container mt-5">
+      <h1>GORRAS DE BITCOIN</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+        <div class="col">
+          <div class="card h-100 shadow rounded">
+            <img src="img/gorra1.jpg" class="imagen w-75" alt="Gorra Premium">
+            <div class="card-body">
+              <h5 class="card-title">Gorra con logo de Bitcoin bordado</h5>
+              <p class="card-text">Gorra Bitcoin azul, con esta gorra le dejarás bien claro a todo el mundo que el
+                dinero fiat ha muerto.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center fondo-precio">
+              <div>
+                <h3 class="estilo-precio">S/ 19.99</h3>
+              </div>
+              <div>
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#gorra1"><i
+                    class="fa fa-shopping-cart"></i> COMPRAR AHORA</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal gorra 1 -->
+        <div class="modal fade" id="gorra1" tabindex="-1" aria-labelledby="gorra1Label" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="gorra1Label">CARRITO DE COMPRAS</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ¿Está seguro que desea realizar su pedido <b>Gorra con logo de Bitcoin bordado</b>?
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">NO</button>
+                <a class="btn btn-warning" href="https://commerce.coinbase.com/invoices/AD8CF7XP" role="button"><i
+                    class="fa fa-shopping-cart"></i> SI QUIERO</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow rounded">
+            <img src="img/gorra2.jpg" class="imagen w-75" alt="Gorra Premium">
+            <div class="card-body">
+              <h5 class="card-title">Gorra de HODL metaverso espacial</h5>
+              <p class="card-text">Gorra Bitcoin HODL con su malla trasera y su visor medio.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center fondo-precio">
+              <div>
+                <h3 class="estilo-precio">S/ 24.99</h3>
+              </div>
+              <div>
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#gorra2"><i
+                    class="fa fa-shopping-cart"></i> COMPRAR AHORA</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal gorra 2 -->
+        <div class="modal fade" id="gorra2" tabindex="-1" aria-labelledby="gorra2Label" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="gorra2Label">CARRITO DE COMPRAS</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ¿Está seguro que desea realizar su pedido <b>Gorra de HODL metaverso espacial</b>?
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">NO</button>
+                <a class="btn btn-warning" href="https://commerce.coinbase.com/invoices/4ZJMA9EC" role="button"><i
+                    class="fa fa-shopping-cart"></i> SI QUIERO</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow rounded">
+            <img src="img/gorra3.jpg" class="imagen w-75" alt="Gorra Premium">
+            <div class="card-body">
+              <h5 class="card-title">Gorra Bitcoin Illuminati</h5>
+              <p class="card-text">Gorra Bitcoin Illuminati con su malla trasera y su visor medio.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center fondo-precio">
+              <div>
+                <h3 class="estilo-precio">S/ 29.99</h3>
+              </div>
+              <div>
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#gorra3"><i
+                    class="fa fa-shopping-cart"></i> COMPRAR AHORA</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal gorra 3 -->
+      <div class="modal fade" id="gorra3" tabindex="-1" aria-labelledby="gorra3Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="gorra3Label">CARRITO DE COMPRAS</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ¿Está seguro que desea realizar su pedido <b>Gorra Bitcoin Illuminati</b>?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">NO</button>
+              <a class="btn btn-warning" href="https://commerce.coinbase.com/invoices/9K5CKZ3F" role="button"><i
+                  class="fa fa-shopping-cart"></i> SI QUIERO</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--información-->
+    <section class="container mt-5 pt-5">
+      <div class="pt-2 pb-5 container">
+        <div class="row d-flex align-items-center flex-column-reverse flex-lg-row">
+          <div class="col-md-6 px-3">
+            <div class="card mb-3 bg-warning shadow" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <i class="fa-solid fa-hand-pointer fa-5x mx-4 mt-3"></i>
+                </div>
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title">Seleccionar el Producto</h5>
+                    <p class="card-text">Elige el Producto de tu preferencia presionando "COMPRAR AHORA".</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 bg-warning shadow" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <i class="fa fa-shopping-cart fa-5x mx-4 mt-3""></i>
+                </div>
+                <div class=" col-md-9">
+                    <div class="card-body">
+                      <h5 class="card-title">Confirmar Pedido</h5>
+                      <p class="card-text">Realiza la confirmación de tu Producto en tu carrito emergente presionando
+                        "SI QUIERO".</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 bg-warning shadow" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <i class="fa-solid fa-circle-check fa-5x mx-4 mt-3""></i>
+                </div>
+                <div class=" col-md-9">
+                    <div class="card-body">
+                      <h5 class="card-title">Finalizar Compra</h5>
+                      <p class="card-text">Realiza el pago correspondiente en Criptomoneda y recibirás instrucciones de
+                        tu pedido.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 how-img px-5">
+            <img src="img/bitcoin-carrito.png" class="img-fluid mb-3" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--Pie de pagina-->
+  <section class="bg-warning pe-5 pt-3">
+    <div class="container pb-5">
+      <div class="row">
+        <div class="col-sm pe-5 pt-3">
+          <img src="img/logo.png" alt="" class="logo img-fluid">
+          <hr>
+          <p>Somos una tienda de Productos de Bitcoin premium de alta calidad con material 100% algodon e
+            hipoalergenico.</p>
+        </div>
+        <div id="contacto" class="col-sm pe-5 pt-3">
+          <h5>CONTACTO</h5>
+          <hr>
+          <p><i class="fa fa-map-marker fa-1x"> </i> San Borja - Lima peru.</p>
+          <p><i class="fa fa-envelope-open"></i> atención@productosbitcoin.com</p>
+          <p><i class="fa fa-phone"></i> +51934567890</p>
+        </div>
+        <div class="col-sm pe-5 pt-3">
+          <div>
+            <h5>REDES SOCIALES</h5>
+            <hr>
+            <i class="fa-brands fa-facebook fa-2x pe-3"> </i>
+            <i class="fa-brands fa-instagram fa-2x pe-3"></i>
+            <i class="fa-brands fa-twitter fa-2x pe-3"></i>
+          </div>
+          <div class="pt-5">
+            <h5>PAGUE CON CRIPTOMONEDA</h5>
+            <hr>
+            <img src="img/aceptamos.png" class="w-75" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="p-1">
+      <hr>
+      <p class="text-center">&copy; Tienda con Productos Bitcoin 2022 Diseñado con ❤ por: <b>Carluis Pérez</b></p>
+    </footer>
+  </section>
+  <a class="scroll text-warning" href="#"><i class="fa-solid fa-circle-up fa-2x mx-1 mt-1"></i></a>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/scroll.js"></script>
+</body>
+
+</html>
